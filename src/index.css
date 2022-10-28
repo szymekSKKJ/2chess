@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mitr", sans-serif;
+  color: #f3e8d8;
+}
+
+body {
+  width: auto;
+  height: auto;
+  background-color: #332d29;
+}
+
+.main-button-dark {
+  width: auto;
+  height: auto;
+  background-color: #332d29;
+  font-size: 20px;
+  padding: 6px 20px 6px 20px;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.main-button-dark:hover {
+  background-color: #50463f;
+}
